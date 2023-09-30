@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/otpverification.css">
+    <title>OTP Verification</title>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <header>OTP Verification</header>
+        </div>
+        <p>Enter the OTP sent to your email address to reset your password.</p>
+        <form action="/verify-otp" method="post">
+            <div class="input-box">
+                <label for="otp">OTP:</label>
+                <input type="text" id="otp" name="otp" required>
+            </div>
+           
+            <button type="submit">Verify OTP</button>
+        </form>
+        <div class="container2">
+            <a href="/html/forgotpassword.html">Back to Forgot Password</a>
+        </div>
+    </div>
+</body>
+</html>

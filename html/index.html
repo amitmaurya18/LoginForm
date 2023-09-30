@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/css/login.css" />
+    <script>
+        function goToPage() {
+          window.location.href = "registration.html";
+        }
+      </script>
+</head>
+<body>
+    <section class="container">
+        <div class="logo">
+            <img src="/image/logo.png" alt="Your Logo">
+        </div>
+        <div class="heading">
+            <header>Login to your account</header>
+        </div>
+        <form action="registration.html" method="post" class="form">
+            <div>
+                <div class="input-box">
+                    <label>Username: </label>
+                    <input type="text" name="username" placeholder="Enter Username" required/>    
+                </div>
+                <div class="input-box">
+                    <label>Password: </label>
+                    <input type="password" name="Password" placeholder="Enter Password" required/>    
+                </div>
+            </div>
+            
+            <button type="submit">Login</button>
+        </form>
+        <div class="container2">
+            <a href="forgotpassword.html">Forgot your password?</a>
+        </div>
+        <hr class="line">
+        <div class="container3">
+            <h3>Dont't have an account?<a href="registration.html">Click Here</a></h3>
+        </div>
+    </section>
+    
+</body>
+</html>
